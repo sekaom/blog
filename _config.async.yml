@@ -8,7 +8,7 @@ user:
   last_name: "Neokoni's "
   email: me@neokoni.moe
   domain: blog.neokoni.moe
-  avatar: https://avatars.githubusercontent.com/u/90206655?v=4
+  avatar: https://avatars.githubusercontent.com/u/90206655
   describe: into the unknown, become the unknown
   ruleText: 联系添加
 
@@ -106,7 +106,7 @@ banner:
   use_cover: false
   default:
     type: img
-    bgurl: /img/banner.png
+    bgurl: /img/back.jpg
     bannerText: Hi my new friend!
     position: top
     fit: cover
