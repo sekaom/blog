@@ -106,7 +106,7 @@ banner:
   use_cover: false
   default:
     type: img
-    bgurl: /img/back.jpg
+    bgurl: https://z1.ax1x.com/2023/10/15/pi9cA0O.jpg
     bannerText: Hi my new friend!
     position: top
     fit: cover
