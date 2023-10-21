@@ -134,7 +134,7 @@ sidebar:
   info: 
     - key: sidebar.residence
       val: Nanchong
-    - key: ages
+    - key: age
       val: 16
   social:
     - name: Github
