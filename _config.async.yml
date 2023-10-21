@@ -14,9 +14,9 @@ user:
 
 # Configure the icon information of the site
 favicon:
-  logo: /img/favicon.svg
-  icon16: /img/favicon.svg
-  icon32: /img/favicon.svg
+  logo: /img/icon.png
+  icon16: /img/icon.png
+  icon32: /img/icon.png
   appleTouchIcon: 
   webmanifest:
   visibilitychange: false
