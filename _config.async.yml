@@ -6,10 +6,10 @@ user:
   name: Neokoni
   first_name: Blog
   last_name: "Neokoni's "
-  email: me@neokoni.moe
+  email: 
   domain: blog.neokoni.moe
   avatar: https://avatars.githubusercontent.com/u/90206655
-  describe: into the unknown, become the unknown
+  describe: Follow that star
   ruleText: 联系添加
 
 # Configure the icon information of the site
