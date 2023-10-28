@@ -136,10 +136,10 @@ sidebar:
       val: Nanchong
     - key: age
       val: 16
-  social:
-    - name: Github
-      icon: fab fa-github
-      url: https://github.com/sekaom
+#  social:
+#    - name: Github
+#      icon: fab fa-github
+#      url: https://github.com/sekaom
 
 # About page settings
 about:
