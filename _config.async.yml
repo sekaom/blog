@@ -8,7 +8,7 @@ user:
   name: Neokoni
   first_name: Blog
   last_name: "Neokoni's "
-  email: 
+  email: me@neokoni.moe
   domain: blog.neokoni.moe
   avatar: https://avatars.githubusercontent.com/u/90206655
   describe: Follow that star
@@ -141,7 +141,8 @@ sidebar:
   social:
     - name: Github
       icon: fab fa-github
-      url: ""
+      url: https://github.com/sekaom
+    
 
 # About page settings
 about:
