@@ -134,10 +134,10 @@ sidebar:
   typedTextPrefix: I`m
   typedText: 
   info: 
-    - key: sidebar.residence
-      val: Nanchong
-    - key: age
-      val: 16
+#    - key: sidebar.residence
+#      val: Nanchong
+#    - key: age
+#      val: 16
   social:
     - name: Github
       icon: fab fa-github
