@@ -134,8 +134,8 @@ sidebar:
   typedTextPrefix: I`m
   typedText: 
   info: 
-#    - key: sidebar.residence
-#      val: Nanchong
+    - key: sidebar.residence
+      val: Nanchong
 #    - key: age
 #      val: 16
   social:
