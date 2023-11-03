@@ -186,7 +186,7 @@ reward:
   enable: true
   comment: reward.comment
   # url:
-  methods: 
+  methods: https://donate.neokoni.moe
 
 # Article table of contents
 toc:
