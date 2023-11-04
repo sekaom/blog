@@ -103,6 +103,12 @@ top_bars:
   - title: 友链
     url: /links/
 
+links:
+  - name: BugCraft Blog
+    url: https://blog.bugcraft.org/
+    image: https://bugcraft.org/favicon.png
+    desc: BugCraft Blog - There are many things to say.
+
 # Banner settings
 banner:
   use_cover: false
