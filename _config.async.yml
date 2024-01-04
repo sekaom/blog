@@ -5,11 +5,11 @@ baidu_push: true
 
 # User info
 user:
-  name: Neokoni
+  name: "Neokoni's home"
   first_name: Blog
   last_name: "Neokoni's "
   email: me@neokoni.moe
-  domain: blog.neokoni.moe
+  domain: "www.neokoni.moe or neokoni.moe"
   avatar: https://avatars.githubusercontent.com/u/90206655
   describe: Follow that star
   ruleText: 联系添加
