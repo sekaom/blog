@@ -5,14 +5,14 @@ baidu_push: true
 
 # User info
 user:
-  name: "Neokoni's home"
+  name: "Neokoni"
   first_name: Blog
   last_name: "Neokoni's "
   email: me@neokoni.moe
   domain: "www.neokoni.moe or neokoni.moe"
   avatar: https://avatars.githubusercontent.com/u/90206655
   describe: Follow that star
-  ruleText: 联系添加
+  ruleText: "联系添加,Title: Neokoni's Home"
 
 # Configure the icon information of the site
 favicon:
