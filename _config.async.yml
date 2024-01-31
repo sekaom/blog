@@ -313,12 +313,12 @@ katex:
 
 # Blog search
 search:
-  enable: false
+  enable: true
   type: engine #local engine
-  href: 'https://www.google.com/search?q=site:'
+  # href: 'https://www.google.com/search?q=site:'
   # href: "https://www.baidu.com/s?wd=site:"
-  # href: "https://www.bing.com/search?q=site:"
-  domain: 
+  href: "https://www.bing.com/search?q=site:"
+  domain: blog.neokoni.moe
 
 # Think of swup as being pjax on steroids. The concepts are similar to those used in barba.js or other transition libraries.
 # https://swup.js.org/
