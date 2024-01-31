@@ -120,6 +120,10 @@ links:
     url: https://suiyue.xyz/
     image: https://resource.neokoni.moe/neokoni/img/links_suiyue.jpg
     desc: my恕了
+  - name: ecraft的主页
+    url: http://www.ecraft2008.top/
+    image: https://pic.imgdb.cn/item/65ba6cce871b83018ad545eb.jpg
+    desc: 行动胜于言辞
 
 # Banner settings
 banner:
