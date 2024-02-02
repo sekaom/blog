@@ -48,13 +48,24 @@ pause
 ```
 java -jar -Xmx8G 你的服务端文件名 nogui
 ```
-## 优化运行Flag(选做)
-你可以在启动命令中添加一些flag优化服务端的运行，但不是所有的flag都是正向优化  
-[PaperMC](https://docs.papermc.io/paper/aikars-flags)有一个推荐的Flag配置
 ## 正式运行
 一切就绪，第一次运行服务端会直接推出并要求你同意一个协议，即<code>Minecraft 最终用户许可协议</code>，你可以在[Minecraft官网](https://aka.ms/MinecraftEULA)上找到详细内容  
 打开eula.txt，将<code>eula=false</code>的<code>false</code>改为<code>true</code>即表示同意此协议  
 再次运行启动脚本，即可正常启动服务器
+## 保持后台运行
+使用但命令行管理是一个原始的办法，且远程管理并不便携，采用<code>网页管理面板管理是个更好的选择，这里推荐[MCSManager](https://mcsmanager.com/)  
+Windows使用由于node版本限制，最好使用wind8.1及以上版本，升级win10或者win11是个更好的选择  
+如果你是Windows用户，在[这里](oss.duzuii.com/MCSManager/MCSManager-ZH)下载Windows版本的压缩包，解压，按照<code>使用说明.txt</code>启动。浏览器访问<code>本机ip:23333</code>即可打开网页面板。
+如果你是Linux用户，在终端运行以下命令，它会自动完成安装，浏览器访问<code>本机ip:23333</code>即可打开网页面板。
+```
+sudo wget -qO- https://gitee.com/mcsmanager/script/raw/master/setup_cn.sh | bash
+```
+第一次打开会有一段新手引导，如果你第一次使用，可以先看看。  
+完成后点击<code>应用实例</code>，选择<code>创建应用</code>，选择<code>创建Minecraft Java版游戏服务器</code>，你可以选择<code>现有目录</code>，也可以选择<code>上传单个服务器文件</code>并使用<code>命令助手</code>生成启动命令，如果你什么也没有，可以选择<code>一键部署</code>，就是服务端较少   
+如果你是<code>选择已有的目录</code>，请复制你的<code>Minecraft服务端文件夹路径</code>并填入到相对应的位置，应用名称按你的喜好填写，启动命令你可以直接填入你<code>原启动脚本</code>里的内容，也可以使用<code>命令助手</code>生成，接着点击<code>完成</code>即可创建。  
+## 优化运行Flag(选做)
+你可以在启动命令中添加一些flag优化服务端的运行，但不是所有的flag都是正向优化  
+[PaperMC](https://docs.papermc.io/paper/aikars-flags)有一个推荐的Flag配置
 ## 开启离线模式(非正版服)
 编辑<code>server.properties</code>，找到<code>online-mode</code>一项，将<code>true</code>改为<code>false</code>即可  
 关闭后一些功能会失去，如玩家皮肤为默认皮肤，TAB栏不再显示玩家头像等，皮肤问题可以使用[skinsrestorer](https://skinsrestorer.net/)恢复  
@@ -63,7 +74,7 @@ java -jar -Xmx8G 你的服务端文件名 nogui
 如果你家拥有动态公网ipv4/ipv6，对于ipv4你需要查看光猫/路由器的管理界面获取到的ip地址。如果它与你在ip查询网站显示的ip一致，即它为你家/你电脑的公网ipv4/ipv6地址。  
 如果是ipv4地址，你需要在你的宽带拨号终端开放你电脑的服务器端口，服务器端口以<code>server.properties</code>中的<code>server-port</code>为准，如不会，请[Bing一下](https://cn.bing.com/search?q=%E8%B7%AF%E7%94%B1%E5%99%A8%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84)  
 打开[ipw.cn](https://ipw.cn/)，如果显示你拥有ipv6地址，即可使用此地址联机，它在添加服务器里的地址写法为<code>[ipv6地址]:25565</code>
-### 使用Frp传透(选做)
+### 使用Frp穿透(选做)
 如果你和你的伙伴均没有ipv6或只有一方有，或者你没有公网ipv4，你可能需要<code>虚拟局域网</code>或者<code>frp</code>等方式才能进行联机  
 使用Frp参照[SakuraFrp Docs](https://doc.natfrp.com/app/mc.html)，你仍可以自由选择Frp服务商，教程理论上Frp通用
 
