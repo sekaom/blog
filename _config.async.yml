@@ -197,7 +197,7 @@ footer:
     prefix: footer.tips
     start_time: 02/02/2023 22:19:31
   #
-  custom_text:
+  custom_text: <a href="https://icp.gov.moe/?keyword=20240816" target="_blank">萌ICP备20240816号</a>
 
 # Here is a collection of articles related to configuration.
 #### Article configuration start ###
