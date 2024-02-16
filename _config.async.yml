@@ -12,13 +12,13 @@ user:
   domain: "www.neokoni.moe or neokoni.moe"
   avatar: https://avatars.githubusercontent.com/u/90206655
   describe: Follow that star
-  ruleText: "联系添加,冲突信息以此行为准Title: Neokoni's Home;简介:Follow that star;image:https://resource.neokoni.moe/neokoni/img/avatar.png"
+  ruleText: "联系添加,冲突信息以此行为准Title: Neokoni's Home;简介:Follow that star;image:https://resource.neokoni.moe/neokoni/svg/favicon.svg"
 
 # Configure the icon information of the site
 favicon:
-  logo: icon.png
-  icon16: icon.png
-  icon32: icon.png
+  logo: https://resource.neokoni.moe/neokoni/svg/favicon.svg
+  icon16: https://resource.neokoni.moe/neokoni/svg/favicon.svg
+  icon32: https://resource.neokoni.moe/neokoni/svg/favicon.svg
   appleTouchIcon: 
   webmanifest:
   visibilitychange: false
