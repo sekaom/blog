@@ -1,4 +1,4 @@
-# Open Graph protocol
+www.beichen.icu/图标.png Open Graph protocol
 open_graph: true
 
 baidu_push: true
@@ -112,10 +112,10 @@ links:
     url: https://www.hoshiroko.com
     image: https://api.hoshiroko.com/img/avatar.jpg
     desc: 越是拼命往前伸手，渴望之物越是渐行渐远
-  - name: 北尘的小屋
+  - name: 北尘的小窝
     url: https://www.beichen.icu
-    image: https://s11.ax1x.com/2024/01/01/piXbL1x.jpg
-    desc: 这家伙竟然有域名了？Amazing!
+    image: www.beichen.icu/图标.png
+    desc: 呜呜呜~整体UI变得更不错了呢
   - name: 岁月的小网站
     url: https://suiyue.xyz/
     image: https://resource.neokoni.moe/neokoni/img/links_suiyue.jpg
