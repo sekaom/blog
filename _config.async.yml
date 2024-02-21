@@ -18,7 +18,7 @@ user:
 favicon:
   logo: https://resource.neokoni.moe/neokoni/svg/favicon.svg
   icon16: https://resource.neokoni.moe/neokoni/svg/favicon.svg
-  icon32: https://resource.neokoni.moe/neokoni/svg/favicon.svg
+  icon32: https://resource.neokoni.moe/neokoni/ico/favicon.ico
   appleTouchIcon: 
   webmanifest:
   visibilitychange: false
