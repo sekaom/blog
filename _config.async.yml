@@ -124,10 +124,6 @@ links:
     url: http://www.ecraft2008.top/
     image: https://pic.imgdb.cn/item/65ba6cce871b83018ad545eb.jpg
     desc: 行动胜于言辞
-  - name: 北斗星移网
-    url: https://www.beidouxingyi.cn/
-    image: https://www.beidouxingyi.cn/favicon
-    desc: ' 北斗星移，提供即时通讯平台、在线聊天室、翻译、网页快照获取、地图、数字文物库阅览、音乐播放、在线下棋等服务'
 # Banner settings
 banner:
   use_cover: false
