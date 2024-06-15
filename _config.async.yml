@@ -104,10 +104,10 @@ top_bars:
     url: /links/
 
 links:
-  - name: BugCraft Blog
-    url: https://blog.bugcraft.org/
-    image: https://bugcraft.org/favicon.png
-    desc: BugCraft Blog - There are many things to say.
+  - name: whycf的小站
+    url: https://whycf.top
+    image: https://whycf.top/wp-content/uploads/2023/07/1小.png
+    desc: whycf的小站
   - name: 薄荷の小屋
     url: https://www.hoshiroko.com
     image: https://api.hoshiroko.com/img/avatar.jpg
